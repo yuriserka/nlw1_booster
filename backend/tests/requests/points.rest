@@ -1,0 +1,32 @@
+@url=http://localhost:3333/points
+
+###
+
+POST {{url}}
+Content-Type: application/json
+
+{
+  "name": "Central de Reciclagem do Varjão",
+  "email": "xxxssss@hotmail.com",
+  "phone": "61 983342606",
+  "city": "Brasília",
+  "uf": "DF",
+  "latitude": -15.7141559,
+  "longitude": -47.8746678,
+  "items": [
+    1,3,6
+  ]
+}
+
+###
+
+GET {{url}}/6
+Content-Type: application/json
+
+###
+
+GET {{url}}
+  ?uf=DF
+Content-Type: application/json
+
+###

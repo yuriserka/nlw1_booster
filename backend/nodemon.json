@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "tests/*",
+    "docs/*"
+  ],
+  "exec": "ts-node -P ./tsconfig.json ./src/server.ts"
+}
